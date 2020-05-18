@@ -32,9 +32,9 @@ void Setup(){
     score = 0;
 }
 void Draw() {
-    system("cls"); //system("clear");
+    system("clear"); //system("clear");
     
-    for (int i=0; i < width+2; i++)
+    for (int i=0; i < width+1; i++)
         cout << "#";
     cout << endl;
     
@@ -51,7 +51,7 @@ void Draw() {
         cout << endl;
     }
     
-    for (int i=0; i < width+2; i++)
+    for (int i=0; i < width+1; i++)
         cout << "#";
     cout << endl;
     
